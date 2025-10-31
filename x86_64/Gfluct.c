@@ -291,7 +291,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
   hoc_register_dparam_semantics(_mechtype, 2, "pointer");
  	hoc_register_cvode(_mechtype, _ode_count, 0, 0, 0);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 Gfluct2 /Users/tarek/Downloads/L23Net/mod/Gfluct.mod\n");
+ 	ivoc_help("help ?1 Gfluct2 /Users/tarek/Desktop/Yao_NetPyNE_100/mod/Gfluct.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -581,7 +581,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/Users/tarek/Downloads/L23Net/mod/Gfluct.mod";
+static const char* nmodl_filename = "/Users/tarek/Desktop/Yao_NetPyNE_100/mod/Gfluct.mod";
 static const char* nmodl_file_text = 
   "TITLE Fluctuating conductances\n"
   "\n"

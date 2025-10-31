@@ -225,7 +225,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_cvode(_mechtype, _ode_count, _ode_map, _ode_spec, _ode_matsol);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 Kv3_1 /Users/tarek/Downloads/L23Net/mod/Kv3_1.mod\n");
+ 	ivoc_help("help ?1 Kv3_1 /Users/tarek/Desktop/Yao_NetPyNE_100/mod/Kv3_1.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -480,7 +480,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/Users/tarek/Downloads/L23Net/mod/Kv3_1.mod";
+static const char* nmodl_filename = "/Users/tarek/Desktop/Yao_NetPyNE_100/mod/Kv3_1.mod";
 static const char* nmodl_file_text = 
   ":Comment :\n"
   ":Reference : :		Characterization of a Shaw-related potassium channel family in rat brain, The EMBO Journal, vol.11, no.7,2473-2486 (1992)\n"

@@ -290,7 +290,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  pnt_receive_init[_mechtype] = _net_init;
  pnt_receive_size[_mechtype] = 6;
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 ProbUDFsyn /Users/tarek/Downloads/L23Net/mod/ProbUDFsyn.mod\n");
+ 	ivoc_help("help ?1 ProbUDFsyn /Users/tarek/Desktop/Yao_NetPyNE_100/mod/ProbUDFsyn.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -627,7 +627,7 @@ _first = 0;
 }
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/Users/tarek/Downloads/L23Net/mod/ProbUDFsyn.mod";
+static const char* nmodl_filename = "/Users/tarek/Desktop/Yao_NetPyNE_100/mod/ProbUDFsyn.mod";
 static const char* nmodl_file_text = 
   "TITLE AMPA and NMDA receptor with presynaptic short-term plasticity \n"
   "\n"
