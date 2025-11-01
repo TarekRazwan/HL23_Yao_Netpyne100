@@ -149,12 +149,12 @@ cfg.backgroundRate = {
     'HL23VIP': 100.0
 }
 
-# Background weights (synaptic strength)
+# Background weights (synaptic strength) - PHASE 1 INCREASED 37-50×
 cfg.backgroundWeight = {
-    'HL23PYR': 0.0002,
-    'HL23SST': 0.0002,
-    'HL23PV': 0.0005,
-    'HL23VIP': 0.0004
+    'HL23PYR': 0.01,     # was 0.0002, now 50× higher
+    'HL23SST': 0.01,     # was 0.0002, now 50× higher
+    'HL23PV': 0.02,      # was 0.0005, now 40× higher
+    'HL23VIP': 0.015     # was 0.0004, now 38× higher
 }
 
 #------------------------------------------------------------------------------
@@ -250,7 +250,7 @@ cfg.recordStep = 0.1
 #------------------------------------------------------------------------------
 # Saving
 #------------------------------------------------------------------------------
-cfg.simLabel = 'Yao_L23_100cell'
+cfg.simLabel = 'Yao_L23_100cell_phase1_v2'
 cfg.saveFolder = 'output'
 cfg.savePickle = False         	
 cfg.saveJson = True	           	
@@ -326,12 +326,16 @@ cfg.backgroundRate = {
     'HL23VIP': 100.0
 }
 
-# Background weights (synaptic strength)
+# Background weights (synaptic strength) - PHASE 1 INCREASED 37-50×
 cfg.backgroundWeight = {
-    'HL23PYR': 0.0002,
-    'HL23SST': 0.0002,
-    'HL23PV': 0.0005,
-    'HL23VIP': 0.0004
+    # 'HL23PYR': 0.01,     # was 0.0002, now 50× higher
+    # 'HL23SST': 0.01,     # was 0.0002, now 50× higher
+    # 'HL23PV': 0.02,      # was 0.0005, now 40× higher
+    # 'HL23VIP': 0.015     # was 0.0004, now 38× higher
+    'HL23PYR': 0.0027,    # 0.01 ÷ 3.75 = target/actual ratio
+    'HL23SST': 0.0015,    # 0.01 ÷ 6.76
+    'HL23PV': 0.0088,     # 0.02 ÷ 2.28
+    'HL23VIP': 0.0102     # 0.015 ÷ 1.47
 }
 
 #------------------------------------------------------------------------------
