@@ -1,0 +1,7 @@
+NETWORK SIMULATION COMPARISON
+================================================================================
+
+ Condition  Total Spikes Avg Rate (Hz) Std Dev (Hz) Active Cells CV ISI
+AD Stage 1           442          2.76         2.68        51/80  1.092
+AD Stage 3           258          1.61         2.16        42/80  0.969
+
